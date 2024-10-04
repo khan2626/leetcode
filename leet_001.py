@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+return the longest possible substring of palindrom
+from a string
+"""
 
 def longest_palindrome_substr(s: str):
 
