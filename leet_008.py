@@ -29,4 +29,4 @@ if __name__ == '__main__':
     nums = [0, 0, 0, 0]
     target = 1
     result = three_sum_closest(nums, target)
-    print(result)  # Output: 2
+    print(result)  # Output: 0
