@@ -6,8 +6,12 @@ def plus1(digits):
             digits[i] +=1
             return digits
         digits[i] = 0
-    return digits
+        if i == 0:
+            return [1] + digits
+        
 
 if __name__ == "__main__":
-    digits = [1, 2, 3, 9, 9]
+    digits = [9]
+    digits1 =[1, 2, 3, 9]
     print(plus1(digits))
+    print(plus1(digits1))
