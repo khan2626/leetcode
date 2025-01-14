@@ -4,7 +4,7 @@ class ListNode:
         self.val = val
         self.next = next
     def __repr__(self):
-        return f'{self.val}-->{self.next}'
+        return f'${self.val}-->${self.next}'
 
 def merge_two_sorted_list(list1, list2):
 
