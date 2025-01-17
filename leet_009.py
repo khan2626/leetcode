@@ -2,7 +2,7 @@
 
 def no_duplicate(nums: int):
     replace = 1
-    count = 0
+    count = 1
     numbers = [nums[0]]
 
     for i in range(1, len(nums)):
