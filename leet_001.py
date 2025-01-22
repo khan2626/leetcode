@@ -17,4 +17,4 @@ def longest_palindrome_substr(s: str):
     return(max_len, max_str)
 
 if __name__ == '__main__':
-    print(longest_palindrome_substr('aaabz'))
+    print(longest_palindrome_substr('anaabz'))
