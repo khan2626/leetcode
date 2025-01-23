@@ -1,3 +1,15 @@
+"""
+it reverses an integer within 32 bits
+I
+nput: x = 123
+Output: 321
+
+Example 2:
+Input: x = -123
+Output: -321
+
+"""
+
 
 def reverse_int(x):
 
@@ -17,5 +29,5 @@ def reverse_int(x):
     return sign * reverse
 
 if __name__ == '__main__':
-    x = -2147483412
+    x = 1563847412
     print(reverse_int(x))
