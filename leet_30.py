@@ -1,4 +1,11 @@
+"""
+it returns a string in a zigzag pattern.
+s = string
+numRows = number of rows
 
+Input: s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
+"""
 
 def zigzag(s, numRows: int):
     step = -1
