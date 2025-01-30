@@ -15,5 +15,5 @@ def len_possible_substr(s: str) -> str:
     return max_len
 
 if __name__ == '__main__':
-    print(len_possible_substr('abcabcbb'))
+    print(len_possible_substr('abcbcbb'))
     print(len_possible_substr('bbbb'))

@@ -1,4 +1,6 @@
-
+"""
+it returns a boolean if binary tree "p" and "q" are same or not
+"""
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -25,7 +27,7 @@ q = TreeNode(1)
 q.left = TreeNode(5)
 q.right = TreeNode(7)
 q.left.left = TreeNode(2)
-q.left.right= TreeNode()
+#q.left.right= TreeNode()
 
 tree = TreeNode()
 solution = tree.isSame(p, q)
