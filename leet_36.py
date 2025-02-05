@@ -1,4 +1,6 @@
-
+"""
+class tree node
+"""
 
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
@@ -7,6 +9,12 @@ class TreeNode(object):
         self.right = right
 
 class Solution(object):
+    """
+    Given the root of a binary tree, check whether it is a mirror of itself 
+    (i.e., symmetric around its center).
+    Input: root = [1,2,2,3,4,4,3]
+    Output: true
+    """
     def isSymmetric(self, root):
         def isSame(left, right):
             if not left and not right:
